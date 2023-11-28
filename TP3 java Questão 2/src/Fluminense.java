@@ -1,6 +1,6 @@
 public class Fluminense extends Brasileiro {
-    public String cidade;
-    public String RG;
+    protected String cidade;
+    protected String RG;
     
     public Fluminense(String nome,String CPF, String endereço,String dataDeNascimento,String cidade,String RG){
         super(nome,CPF,endereço,dataDeNascimento);

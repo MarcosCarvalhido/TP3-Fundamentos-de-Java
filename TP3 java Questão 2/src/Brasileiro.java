@@ -1,8 +1,8 @@
 public abstract class Brasileiro {
-    public String nome;
-    public String CPF;
-    public String endereço;
-    public String dataDeNascimento;
+    protected String nome;
+    protected String CPF;
+    protected String endereço;
+    protected String dataDeNascimento;
 
     public Brasileiro(String nome,String CPF, String endereço,String dataDeNascimento){
         this.nome = nome;

@@ -1,8 +1,8 @@
 import java.text.MessageFormat;
 
 public final class Mercearia extends valorDosProdutos {
-    public String nomeproduto;
-    public double preço;
+    protected String nomeproduto;
+    protected double preço;
 
 
     public Mercearia(String nomeMercado,String ean,String nomeproduto,double preço){

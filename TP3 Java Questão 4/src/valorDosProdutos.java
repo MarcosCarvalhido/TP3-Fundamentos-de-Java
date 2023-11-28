@@ -1,8 +1,8 @@
 import java.text.MessageFormat;
 
 public abstract class valorDosProdutos {
-    public String nomeMercado;
-    public String ean;
+    protected String nomeMercado;
+    protected String ean;
 
     public valorDosProdutos(String nome,String ean){
         this.nomeMercado = nome;

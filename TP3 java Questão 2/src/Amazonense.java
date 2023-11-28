@@ -1,6 +1,6 @@
 public class Amazonense extends Brasileiro {
-    public String cidade;
-    public String RG;
+    protected String cidade;
+    protected String RG;
     
     public Amazonense(String nome,String CPF, String endereço,String dataDeNascimento,String cidade,String RG){
         super(nome,CPF,endereço,dataDeNascimento);

@@ -1,9 +1,9 @@
 import java.text.MessageFormat;
 
 public final class Brinquedos extends LojaDepartamento {
-    public double preço;
-    public long estoque;
-    public String fornecedor;
+    protected double preço;
+    protected long estoque;
+    protected String fornecedor;
 
     public Brinquedos(String nome,String ean,double preço, long estoque,String fornecedor){
         super(nome,ean);

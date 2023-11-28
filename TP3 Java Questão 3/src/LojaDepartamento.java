@@ -1,8 +1,8 @@
 import java.text.MessageFormat;
 
 public abstract class LojaDepartamento {
-    public String nome;
-    public String ean;
+    protected String nome;
+    protected String ean;
 
     public LojaDepartamento(String nome,String ean){
         this.nome = nome;

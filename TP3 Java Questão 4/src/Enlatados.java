@@ -1,8 +1,8 @@
 import java.text.MessageFormat;
 
 public final class Enlatados extends valorDosProdutos {
-    public String nomeproduto;
-    public double preço;
+    protected String nomeproduto;
+    protected double preço;
 
 
     public Enlatados(String nomeMercado,String ean,String nomeproduto,double preço){
